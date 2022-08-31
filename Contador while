@@ -1,0 +1,14 @@
+public class main {
+
+    public static void main(String[] args){
+
+        int numeroWhile = -9;
+
+        while(numeroWhile < 3){
+            System.out.print(numeroWhile);
+            numeroWhile = numeroWhile + 1;
+
+        }
+
+    }
+}
