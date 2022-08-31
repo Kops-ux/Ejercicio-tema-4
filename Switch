@@ -1,0 +1,28 @@
+public class main {
+
+    public static void main(String[] args){
+        var Estacion = "PRIMAVERA";
+
+        switch (Estacion){
+            case "INVIERNO":
+                System.out.print("Es invierno");
+                break;
+
+            case"VERANO":
+                System.out.print("Es verano");
+                break;
+
+            case"OTOÑO":
+                System.out.print("Es otoño");
+                break;
+
+            case "PRIMAVERA":
+            System.out.print("Es primavera");
+            break;
+
+            default:
+                System.out.print("Valor no valido");
+        }
+
+    }
+}
